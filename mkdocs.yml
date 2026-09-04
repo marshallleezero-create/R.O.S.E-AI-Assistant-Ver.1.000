@@ -1,0 +1,39 @@
+site_name: ROSE – Research Operations for Scientific Experimentation
+theme:
+  name: material
+  palette:
+    primary: green
+    accent: lime
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - content.code.copy
+    - content.code.select
+
+nav:
+  - Home: index.md
+  - Getting Started: getting-started.md
+  - Setup Wizard: setup-wizard.md
+  - Architecture: architecture.md
+  - Tools: tools.md
+  - Plugins: plugins.md
+  - Autonomy: autonomy.md
+  - Database: database.md
+  - Dashboard: dashboard.md
+  - Deployment: deployment.md
+
+plugins:
+  - search
+  - pymdownx.arithmatex:
+      generic: true
+
+markdown_extensions:
+  - pymdownx.emoji
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.superfences
+  - pymdownx.highlight
+  - pymdownx.inlinehilite
+  - admonition
+  - toc:
+      permalink: true
